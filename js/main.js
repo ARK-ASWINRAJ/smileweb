@@ -87,7 +87,7 @@
     $('#header').addClass('header-scrolled');
   }
 
-  // Smooth scroll for the menu and links with .scrollto classes
+  // Smooth scroll for the menu and links with .scroll to classes
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
